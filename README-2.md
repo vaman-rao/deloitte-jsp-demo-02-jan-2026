@@ -15,37 +15,6 @@ Creating a **Servlet + JSP MVC Application** using **Maven** and **Apache Tomcat
 
 ---
 
-## Project Structure (Important for Understanding MVC)
-
-```
-deloitte-jsp-demo
-│
-├── pom.xml
-│
-├── src
-│   └── main
-│       ├── java
-│       │   └── com
-│       │       └── demo
-│       │           ├── controller
-│       │           │   └── EmployeeServlet.java   (Controller)
-│       │           └── model
-│       │               └── Employee.java          (Model)
-│       │
-│       └── webapp
-│           ├── index.jsp        (Optional landing page)
-│           └── WEB-INF
-│               └── views
-│                   └── employees.jsp              (View)
-```
-
-### MVC Mapping
-- **Model** → `Employee.java`
-- **Controller** → `EmployeeServlet.java`
-- **View** → `employees.jsp` (kept under `WEB-INF` to prevent direct access)
-
----
-
 ## Step 1: Verify Prerequisites
 1. JDK 11 or 17
 2. Apache Tomcat 9.x
